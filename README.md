@@ -24,7 +24,7 @@ python3 -m venv
 ./.venv/bin/activate
 pip install -r requirements.txt
 ```
-2. Download one of the [pre-trained models](https://github.com/hriva/random-forest-v-svm/releases/latests)
+2. Download one of the [pre-trained models](https://github.com/hriva/random-forest-v-svm/releases/latest)
 
 3. Run the test_mail.ipynb Notebook
 
