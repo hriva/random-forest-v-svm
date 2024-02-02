@@ -12,7 +12,24 @@ In the code are mentioned decisions made through the process but they do not dig
 
 This project requires Python <= 3.12. I recommed to make a virtual enviorment to test it.
 
-## Running the Project
+## Test a Model Release
+
+1.  Clone the repo
+```sh
+git clone https://github.com/hriva/random-forest-v-svm.git
+cd random-forest-v-svm
+
+# Make virt-env
+python3 -m venv 
+./.venv/bin/activate
+pip install -r requirements.txt
+```
+2. Download one of the [pre-trained models](https://github.com/hriva/random-forest-v-svm/releases/latests)
+
+3. Run the test_mail.ipynb Notebook
+
+
+## Train the Model
 
 1.  Clone the repo
 ```sh
@@ -35,4 +52,3 @@ unzip archive.zip -d data
 ```
 
 5. Run the notebook.
-
